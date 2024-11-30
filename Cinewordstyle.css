@@ -122,6 +122,130 @@ h1 {
     background-color: #d73715;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1e0c5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ 
+header {
+    background-color: #232323;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    width: 120px;
+    height: auto;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    color: #e8491d;
+}
+
+.section-title {
+    font-size: 2em;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #e8491d;
+}
+
+.support-section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.support-section h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.support-section ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.support-section li {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.contact-info i {
+    color: #e8491d;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+#contact-form button {
+    background-color: #e8491d;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #d73715;
+}
+
 #how-to-play {
     padding: 40px 0;
     background-color: #f1e0c5;
@@ -180,3 +304,15 @@ footer {
         max-width: 100%;
     }
 }
+}
+
+footer {
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 1em;
+}
+
+
